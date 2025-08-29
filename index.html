@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Live View image</title>
   </head>
-  <body class="">
+  <body class="text-gray-800">
     <!-- navigation bar -->
     <div class="">
       <div class="bg-[url('./img/banner-bg.jpeg')] bg-cover h-[800px] rounded-b-[160px] text-white">
@@ -29,7 +29,7 @@
             <p class="text-sm tracking-wide mt-10">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming <br> websites. You can download and use this layout for commercial purposes. <br> Please tell your friends about TemplateMo.</p>
             <div class=" mt-20 relative">
               <input type="text" placeholder="      Type something" class=" w-full rounded-3xl py-6 px-3 h-10 bg-white">
-              <button class="px-10 py-3 bg-red-600 rounded-3xl absolute right-0 hover:bg-blue-600">SEARCH</button>
+              <button class="px-10 py-3 bg-red-400 rounded-3xl absolute right-0 hover:bg-blue-600">SEARCH</button>
             </div>
           </div>
           <div >
@@ -38,29 +38,62 @@
         </div>        
       </div> 
       <!-- end of hero section -->
-      <div class="w-[90%] mx-auto h-52 grid grid-cols-4 items-center gap-2 -m-16 ">
-        <div class="grid items-center justify-center border-2 h-full w-56 rounded-3xl bg-white">
-          <img src="./img/featured-01.png" alt=" cloud download" class="bg-blue-500 px-5 py-5 rounded-full">
+      <div class="w-[90%] mx-auto h-52 grid grid-cols-4 items-center gap-10 -m-24 ">
+        <div class="grid items-center justify-center border-2 h-full rounded-3xl bg-white group">
+          <img src="./img/featured-01.png" alt=" cloud download" class="bg-blue-500 px-5 py-5 rounded-full group-hover:bg-red-400">
           <h1 class="mt-7 font-bold"> FREE STORAGE</h1>
         </div>
-        <div class="grid items-center justify-center border-2 h-full w-56 rounded-3xl bg-white">
-          <img src="./img/featured-02.png" alt="person" class="bg-blue-500 px-5 py-5 rounded-full" >
+        <div class="grid items-center justify-center border-2 h-full rounded-3xl bg-white group">
+          <img src="./img/featured-02.png" alt="person" class="bg-blue-500 px-5 py-5 rounded-full  group-hover:bg-red-400" >
           <h1 class="mt-7 font-bold">USER MORE</h1>
         </div>
-        <div class="grid items-center justify-center border-2 h-full w-56 rounded-3xl bg-white">
-          <img src="./img/featured-03.png" alt=" play button" class="bg-blue-500 px-5 py-5 rounded-full">
+        <div class="grid items-center justify-center border-2 h-full rounded-3xl bg-white group">
+          <img src="./img/featured-03.png" alt=" play button" class="bg-blue-500 px-5 py-5 rounded-full  group-hover:bg-red-400">
           <h1 class="mt-7 font-bold" >REPLY READY</h1>
         </div>
-        <div class="grid items-center justify-center border-2 h-full w-56 rounded-3xl bg-white">
-          <img src="./img/featured-04.png" alt=" lay out" class="bg-blue-500 px-5 py-5 rounded-full">
+        <div class="grid items-center justify-center border-2 h-full rounded-3xl bg-white group">
+          <div class="px-5 py-5 mr-5 rounded-full bg-blue-500  group-hover:bg-red-400"><img src="./img/featured-04.png" alt=" lay out" class=""></div>
           <h1 class="mt-7 font-bold ">EASY LAYOUT</h1>
         </div>
       </div>
       
     </div>
-    <div class="mt-44">
-      <h1>sxdfcgvbhjnknahuywfod</h1>
+    
+    <!-- trending games -->
+    <div class="mt-44 px-16">
+      <div class="">
+        <h1 class="text-red-400  font-extrabold">TRENDING</h1>
+      </div>
+      <div class="flex justify-between">
+        <h1 class="font-bold mt-5 text-4xl">Trending Games</h1>
+        <button class=" px-4 h-11 bg-red-400 rounded-full hover:bg-blue-600 text-white font-bold text-sm">VIEW ALL</button>
+      </div>
+
+      <div class="mt-16">
+        <div>
+          <div>
+            <img src="./img/trending-01.jpeg" alt="trending game 1">
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="./img/featured-02.png" alt=" trending 2">
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="./img/featured-03.png" alt="trending game">
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="./img/featured-04.png" alt="trending">
+          </div>
+        </div>
+      </div>
+
     </div>
+    <div class="mt-28"></div>
 
     <script type="module" src="/src/main.js"></script>
   </body>
