@@ -10,7 +10,7 @@
     <!-- navigation bar -->
     <div class="">
       <div class="bg-[url('./img/banner-bg.jpeg')] bg-cover h-[800px] rounded-b-[160px] text-white">
-        <div class="flex gap-10 px-16 py-5 justify-between">
+        <div class="flex gap-10 px-16 py-5 justify-between ">
           <img src="./img/logo.png" alt="">
           <ul class="flex text-white gap-10 items-center text-lg font-thin">
             <li class="bg-blue-500 rounded-3xl px-5 py-2 "><a href="#">Home</a></li>
@@ -206,8 +206,8 @@
         <div class="w-full py-10">
           <!-- Categories Section -->
           <div class="text-center mb-10">
-            <p class="text-pink-500 font-semibold uppercase tracking-wide">Categories</p>
-            <h2 class="text-3xl font-extrabold text-gray-900 mt-4">Top Categories</h2>
+            <p class="text-pink-500 font-semibold uppercase tracking-wide text-lg ">Categories</p>
+            <h2 class="text-4xl font-extrabold text-gray-900 mt-4">Top Categories</h2>
           </div>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-items-center">
@@ -220,25 +220,25 @@
 
             <!-- Card 2 -->
             <div class="bg-blue-500 rounded-2xl w-48 text-center overflow-hidden">
-              <p class="text-white font-semibold py-2">Action</p>
+              <p class="text-white font-semibold text-xl py-2">Action</p>
               <img src="./img/categories-01.jpeg" alt="Warframe" class="rounded-2xl mt-4 ">
             </div>
 
             <!-- Card 3 -->
             <div class="bg-blue-500 rounded-2xl w-48 text-center overflow-hidden">
-              <p class="text-white font-semibold py-2">Action</p>
+              <p class="text-white font-semibold text-xl py-2">Action</p>
               <img src="./img/categories-03.jpeg" alt="Tower of Fantasy" class="rounded-2xl mt-4">
             </div>
 
             <!-- Card 4 -->
             <div class="bg-blue-500 rounded-2xl w-48 text-center overflow-hidden">
-              <p class="text-white font-semibold py-2">Action</p>
+              <p class="text-white font-semibold text-xl py-2">Action</p>
               <img src="./img/categories-04.jpeg" alt="Super People" class="rounded-2xl mt-4">
             </div>
 
             <!-- Card 5 -->
             <div class="bg-blue-500 rounded-2xl w-48 text-center overflow-hidden">
-              <p class="text-white font-semibold py-2">Action</p>
+              <p class="text-white font-semibold text-xl py-2">Action</p>
               <img src="./img/categories-05.jpeg" alt="Warframe" class="rounded-2xl mt-4">
             </div>
 
@@ -248,7 +248,37 @@
       </section>
 
     </div>
-    <div class="mt-40"></div>
+    <div class="mt-40 flex justify-center ">
+      <div class="relative">
+        <img src="./img/cta-bg.jpeg" alt=" big img" class="rounded-3xl">
+        <div class="flex flex-col items-center border  w-[70%] bg-slate-100 rounded-3xl absolute -left-56 top-20">
+          <div>
+            <h1 class="mt-20 text-red-400 font-bold text-sm">OUR SHOP</h1>
+            <span class="font-bold  text-4xl">Go Pre-Order <br> Buy & Get <br> Best <span class="text-blue-500">Prices</span> <br> For You!</span>
+            <p class="mt-10 font-bold tracking-wide text-gray-500">Lorem ipsum dolor consectetur <br> adipiscing, sed do eiusmod tempor <br> incididunt.</p>
+          </div>
+          <div class="p-10 mb-5">
+            <button class=" px-4 h-11 bg-red-400 rounded-full group-hover:bg-blue-600 text-white font-bold text-sm mt-2">SHOP NOW</button>
+          </div>
+        </div>
+        
+        <div class="flex flex-col items-center border  w-[70%] bg-slate-100 rounded-3xl absolute top-56 -right-56">
+          <div>
+            <h1 class="mt-20 text-red-400 font-bold text-sm">OUR SHOP</h1>
+            <span class="font-bold  text-4xl">Get Up To $100 Off<br> Just Buy <br><span class="text-blue-500">Subscribe</span> <br>Newsletter!</span>
+            
+          </div>
+          <div class=" mt-20 relative w-3/4 mb-10 ">
+            <input type="email" placeholder="Your email..." class=" w-full rounded-3xl py-6 px-3 h-9 bg-white focus:outline-none focus:border-blue-300 border-4">
+            <button class="px-2 py-3 bg-red-400 rounded-3xl absolute right-0 hover:bg-blue-600 text-white">SUBSCRIBE NOW</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    
 
     <script type="module" src="/src/main.js"></script>
   </body>
